@@ -1,12 +1,12 @@
 import random
 
-print("Ton mot de passe :")
+print("Ton nouveau mot de passe :")
 
-caracteres = "abcdefghijklmnopqrstuvwxyz123456789!=:;,"
+caracteres = "abcdefghijklmnopqrstuvwxyz123456789"
 
 password = ''
 
-for x in range(8):
+for x in range(15):
     password += random.choice(caracteres)
 
 print(password)
